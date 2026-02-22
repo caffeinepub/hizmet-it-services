@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete single-page website structure with header, hero, services, products, AMC sections, and footer.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with logo, desktop/mobile menu, and smooth scroll navigation to page sections.",
+  "frontend/src/components/Hero.tsx": "Hero section with headline, description, background image, and call-to-action buttons for calling and booking visits.",
+  "frontend/src/components/Services.tsx": "Services section displaying five IT service offerings with real work photos for Hardware Repairs, Networking, and Data Recovery, and generated icons for Printer Solutions and Software Sales, all in a responsive card grid layout.",
+  "frontend/src/components/Products.tsx": "Products section showcasing three hardware product categories with images in a responsive card layout.",
+  "frontend/src/components/AMC.tsx": "Annual Maintenance Contract section highlighting AMC benefits with checkmark icons in a centered card.",
+  "frontend/src/components/Footer.tsx": "Footer with company contact information, phone numbers, business hours, and attribution link with UTM tracking.",
+  "frontend/index.css": "Global styles with OKLCH color system customized for a professional IT services theme using warm orange/amber tones for trust and reliability.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom color tokens, typography (Inter/Poppins fonts), border radius, and shadow utilities for the design system.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query, Internet Identity provider, and renders the App component with correct relative CSS import path."
+}

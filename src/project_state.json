@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "HIZMET IT Services company website - a professional IT services business website featuring doorstep hardware repair, printer solutions, networking, data recovery, software sales (Tally/Busy/Antivirus/DSC), product sales (laptops, desktops, peripherals), and AMC services for Delhi customers",
+  "architectural_notes": [
+    "Multi-page business website structure with navigation",
+    "Contact information prominently displayed (multiple phone numbers)",
+    "Service-oriented layout emphasizing doorstep IT support in Delhi"
+  ],
+  "known_issues": [],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-create-a-header-navigation-bar-with-links-home-our-services-products-amc-and-contact-us",
+      "title": "Create a header navigation bar with links: Home, Our Services, Products, AMC, and Contact Us",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-hero-section-with-headline-professional-it-services-delivered-to-your-doorstep-sub-headline-from-chip-level-repairs-to-new-hardware-sales-hizmet-provides-end-to-end-technology-solutions-for-your-home-and-office-in-delhi-and-two-call-to-action-buttons-call-now-8510811600-and-book-a-visit",
+      "title": "Create a hero section with headline 'Professional IT Services Delivered to Your Doorstep.', sub-headline 'From chip-level repairs to new hardware sales, HIZMET provides end-to-end technology solutions for your home and office in Delhi.', and two call-to-action buttons: 'Call Now: 8510811600' and 'Book a Visit'",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-our-services-section-that-lists-doorstep-support-services-including-hardware-repairs-chip-level-repairing-for-motherboards-laptops-and-desktops-printer-solutions-support-for-all-major-brands-cartridge-refilling-and-hardware-fixes-networking-office-home-wifi-setup-lan-cabling-and-server-configuration-data-recovery-professional-recovery-solutions-for-crashed-hard-drives-and-lost-data-and-software-sales-support-tally-busy-installation-licensing-training-antivirus-protection-digital-signatures-dsc-quick-issuance",
+      "title": "Create an 'Our Services' section that lists doorstep support services including: Hardware Repairs (chip-level repairing for motherboards, laptops, and desktops), Printer Solutions (support for all major brands, cartridge refilling and hardware fixes), Networking (Office/Home WiFi setup, LAN cabling, and server configuration), Data Recovery (professional recovery solutions for crashed hard drives and lost data), and Software Sales & Support (Tally & Busy installation/licensing/training, Antivirus protection, Digital Signatures DSC quick issuance)",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-product-sales-section-showcasing-new-hardware-including-brand-new-laptops-latest-models-from-dell-hp-lenovo-and-apple-custom-desktops-built-to-specific-requirements-for-gaming-office-or-design-and-peripherals-monitors-keyboards-mice-and-ups-systems",
+      "title": "Create a 'Product Sales' section showcasing new hardware including: Brand New Laptops (latest models from Dell, HP, Lenovo, and Apple), Custom Desktops (built to specific requirements for Gaming, Office, or Design), and Peripherals (Monitors, Keyboards, Mice, and UPS systems)",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-annual-maintenance-contract-amc-section-describing-amc-services-for-workstations-and-networking-with-benefits-priority-support-regular-preventive-maintenance-and-cost-effective-hardware-replacements",
+      "title": "Create an 'Annual Maintenance Contract (AMC)' section describing AMC services for workstations and networking with benefits: Priority support, Regular preventive maintenance, and Cost-effective hardware replacements",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-footer-with-complete-contact-information-company-name-hizmet-it-services-address-jg-3-175b-vikaspuri-new-delhi-110018-phone-numbers-91-8510811600-91-9811375723-011-49537600-and-business-hours-mon-sat-10-00-am-8-00-pm",
+      "title": "Create a footer with complete contact information: Company name 'HIZMET IT SERVICES', Address 'JG-3/175B, Vikaspuri, New Delhi - 110018', Phone numbers '+91 8510811600', '+91 9811375723', '011-49537600', and Business Hours 'Mon - Sat (10:00 AM - 8:00 PM)'",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-professional-technology-focused-visual-theme-with-a-trustworthy-and-corporate-aesthetic-suitable-for-an-it-services-business-using-colors-that-convey-reliability-and-expertise-avoid-blue-and-purple-with-clean-typography-and-a-layout-that-emphasizes-service-professionalism-and-technical-competence",
+      "title": "Design a professional, technology-focused visual theme with a trustworthy and corporate aesthetic suitable for an IT services business, using colors that convey reliability and expertise (avoid blue and purple), with clean typography and a layout that emphasizes service professionalism and technical competence",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-resolve-deployment-configuration-errors-preventing-the-application-from-being-deployed-to-the-internet-computer",
+      "title": "Resolve deployment configuration errors preventing the application from being deployed to the Internet Computer",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-frontend-build-configuration-correctly-references-backend-canister-declarations",
+      "title": "Ensure frontend build configuration correctly references backend canister declarations",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-uploaded-photos-of-the-technician-performing-chip-level-repairs-images-showing-workbench-with-motherboards-soldering-equipment-and-open-desktop-computer-in-the-hardware-repairs-section-of-the-services-component",
+      "title": "Display the uploaded photos of the technician performing chip-level repairs (images showing workbench with motherboards, soldering equipment, and open desktop computer) in the Hardware Repairs section of the Services component",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-uploaded-photos-of-the-technician-working-with-server-rack-and-network-cabling-images-showing-professional-network-infrastructure-setup-with-blue-and-yellow-cables-in-the-networking-section-of-the-services-component",
+      "title": "Display the uploaded photos of the technician working with server rack and network cabling (images showing professional network infrastructure setup with blue and yellow cables) in the Networking section of the Services component",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-uploaded-photos-of-the-technician-performing-data-recovery-work-images-showing-hard-drives-being-examined-at-the-workbench-with-specialized-equipment-in-the-data-recovery-section-of-the-services-component",
+      "title": "Display the uploaded photos of the technician performing data recovery work (images showing hard drives being examined at the workbench with specialized equipment) in the Data Recovery section of the Services component",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Header navigation with Home, Our Services, Products, AMC, Contact Us links",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Hero section with headline, sub-headline, and CTAs (Call Now: 8510811600, Book a Visit)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services section listing Hardware Repairs, Printer Solutions, Networking, Data Recovery, and Software Sales & Support",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Product Sales section showcasing laptops, custom desktops, and peripherals",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "AMC section describing annual maintenance contracts with benefits",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Footer with contact information (address, phones, business hours)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Verify backend canister configuration in dfx.json matches the main.mo actor implementation",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Integrate the uploaded service photos throughout the website as static assets, storing them in frontend/public/assets/generated and ensuring they load efficiently across all sections",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "HIZMET IT Services",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

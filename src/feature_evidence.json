@@ -1,0 +1,59 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-display-the-uploaded-photos-of-the-technician-performing-chip-level-repairs-images-showing-workbench-with-motherboards-soldering-equipment-and-open-desktop-computer-in-the-hardware-repairs-section-of-the-services-component",
+      "featureTitle": "Display the uploaded photos of the technician performing chip-level repairs (images showing workbench with motherboards, soldering equipment, and open desktop computer) in the Hardware Repairs section of the Services component",
+      "files": [
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-display-the-uploaded-photos-of-the-technician-working-with-server-rack-and-network-cabling-images-showing-professional-network-infrastructure-setup-with-blue-and-yellow-cables-in-the-networking-section-of-the-services-component",
+      "featureTitle": "Display the uploaded photos of the technician working with server rack and network cabling (images showing professional network infrastructure setup with blue and yellow cables) in the Networking section of the Services component",
+      "files": [
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-display-the-uploaded-photos-of-the-technician-performing-data-recovery-work-images-showing-hard-drives-being-examined-at-the-workbench-with-specialized-equipment-in-the-data-recovery-section-of-the-services-component",
+      "featureTitle": "Display the uploaded photos of the technician performing data recovery work (images showing hard drives being examined at the workbench with specialized equipment) in the Data Recovery section of the Services component",
+      "files": [
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,2 +1,3 @@
-# hizmet-it-services
-Exported from Caffeine project: HIZMET IT Services
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

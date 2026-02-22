@@ -1,0 +1,127 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add uploaded service photos throughout the website",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Display chip-level repair photos in Hardware Repairs service card",
+      "acceptanceCriteria": [
+        "The Hardware Repairs service card displays one or more of the uploaded chip-level repair photos",
+        "Images are properly sized and maintain their aspect ratio",
+        "Photos enhance the visual representation of the chip-level repair service offering"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "modify",
+          "description": "Integrate the uploaded chip-level repair photos (image_6217e92f~2.png, image_6217e92f~2-1.png, image_6217e92f~2-2.png, image_6217e92f~2-3.png) into the Hardware Repairs service card. Replace or supplement the existing service-hardware icon with the technician workbench photos showing motherboards, soldering equipment, and open desktop computer. Ensure images are responsive and maintain aspect ratio within the card layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Display network infrastructure photos in Networking service card",
+      "acceptanceCriteria": [
+        "The Networking service card displays one or more of the uploaded networking infrastructure photos",
+        "Images showcase professional LAN cabling and server configuration capabilities",
+        "Photos are integrated seamlessly within the existing card design"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "modify",
+          "description": "Integrate the uploaded networking photos (Screenshot_20260222-122525~2.png, Screenshot_20260222-122525~2-1.png, Screenshot_20260222-122525~2-2.png, Screenshot_20260222-122525~2-3.png) into the Networking service card. Replace or supplement the existing service-network icon with the server rack and professional cabling photos showing blue and yellow network cables. Maintain consistency with the card design pattern."
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Display data recovery work photos in Data Recovery service card",
+      "acceptanceCriteria": [
+        "The Data Recovery service card displays one or more of the uploaded hard drive recovery photos",
+        "Images demonstrate professional data recovery capabilities and equipment",
+        "Photos maintain consistency with other service section imagery"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "modify",
+          "description": "Integrate the uploaded data recovery photos (image_17f3867a.png, image_17f3867a-1.png, image_17f3867a-2.png, image_17f3867a-3.png) into the Data Recovery service card. Replace or supplement the existing service-data icon with the hard drive examination photos showing specialized recovery equipment at the workbench. Ensure visual consistency across all service cards."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Integrate uploaded service photos as optimized static assets",
+      "acceptanceCriteria": [
+        "All 12 uploaded images are stored in frontend/public/assets/generated",
+        "Images are optimized for web display without quality loss",
+        "Photo integration maintains the existing responsive design patterns",
+        "Images load efficiently and do not impact page performance"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/image_6217e92f~2.png",
+          "operation": "create",
+          "description": "Store the uploaded chip-level repair photo showing technician with motherboard and soldering equipment as a static asset for the Hardware Repairs service card."
+        },
+        {
+          "path": "frontend/public/assets/generated/image_6217e92f~2-1.png",
+          "operation": "create",
+          "description": "Store the uploaded chip-level repair photo variant showing detailed workbench view as a static asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/image_6217e92f~2-2.png",
+          "operation": "create",
+          "description": "Store the uploaded chip-level repair photo variant showing open desktop computer as a static asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/image_6217e92f~2-3.png",
+          "operation": "create",
+          "description": "Store the uploaded chip-level repair photo variant as a static asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/Screenshot_20260222-122525~2.png",
+          "operation": "create",
+          "description": "Store the uploaded networking photo showing server rack with blue and yellow cables as a static asset for the Networking service card."
+        },
+        {
+          "path": "frontend/public/assets/generated/Screenshot_20260222-122525~2-1.png",
+          "operation": "create",
+          "description": "Store the uploaded networking photo variant showing professional LAN infrastructure as a static asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/Screenshot_20260222-122525~2-2.png",
+          "operation": "create",
+          "description": "Store the uploaded networking photo variant showing network configuration work as a static asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/Screenshot_20260222-122525~2-3.png",
+          "operation": "create",
+          "description": "Store the uploaded networking photo variant as a static asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/image_17f3867a.png",
+          "operation": "create",
+          "description": "Store the uploaded data recovery photo showing hard drives being examined at workbench as a static asset for the Data Recovery service card."
+        },
+        {
+          "path": "frontend/public/assets/generated/image_17f3867a-1.png",
+          "operation": "create",
+          "description": "Store the uploaded data recovery photo variant showing specialized equipment as a static asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/image_17f3867a-2.png",
+          "operation": "create",
+          "description": "Store the uploaded data recovery photo variant showing detailed recovery process as a static asset."
+        },
+        {
+          "path": "frontend/public/assets/generated/image_17f3867a-3.png",
+          "operation": "create",
+          "description": "Store the uploaded data recovery photo variant as a static asset."
+        }
+      ]
+    }
+  ]
+}
