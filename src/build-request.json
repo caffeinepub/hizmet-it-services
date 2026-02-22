@@ -1,92 +1,102 @@
 {
   "kind": "build_request",
-  "title": "Add uploaded service photos throughout the website",
+  "title": "Add business registration credentials to footer",
+  "projectName": "HIZMET IT Services",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-11",
-      "text": "Display the uploaded photos of the technician performing chip-level repairs (images showing workbench with motherboards, soldering equipment, and open desktop computer) in the Hardware Repairs section of the Services component",
+      "id": "REQ-19",
+      "text": "Add UDYAM Registration number 'DL-11-0014598' to the Footer component",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-latest"
+          "msg-user-udyam-gst-gem-email"
         ],
         "quotes": [
-          "Add these pics"
+          "UDYAM-DL-11-0014598"
         ]
       },
       "acceptanceCriteria": [
-        "The Hardware Repairs service card displays one or more of the uploaded chip-level repair photos",
-        "Images are properly sized and maintain their aspect ratio",
-        "Photos enhance the visual representation of the chip-level repair service offering"
+        "UDYAM Registration number 'DL-11-0014598' is displayed in the Footer component",
+        "The registration number is labeled clearly as 'UDYAM Registration' or similar"
       ]
     },
     {
-      "id": "REQ-12",
-      "text": "Display the uploaded photos of the technician working with server rack and network cabling (images showing professional network infrastructure setup with blue and yellow cables) in the Networking section of the Services component",
+      "id": "REQ-20",
+      "text": "Add GST Number '07AHPPK1766K1ZU' to the Footer component",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-latest"
+          "msg-user-udyam-gst-gem-email"
         ],
         "quotes": [
-          "Add these pics"
+          "GST NO:-07AHPPK1766K1ZU"
         ]
       },
       "acceptanceCriteria": [
-        "The Networking service card displays one or more of the uploaded networking infrastructure photos",
-        "Images showcase professional LAN cabling and server configuration capabilities",
-        "Photos are integrated seamlessly within the existing card design"
+        "GST Number '07AHPPK1766K1ZU' is displayed in the Footer component",
+        "The GST number is labeled clearly as 'GST No.' or similar"
       ]
     },
     {
-      "id": "REQ-13",
-      "text": "Display the uploaded photos of the technician performing data recovery work (images showing hard drives being examined at the workbench with specialized equipment) in the Data Recovery section of the Services component",
+      "id": "REQ-21",
+      "text": "Add GeM Seller ID '853B200001112907' to the Footer component",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-latest"
+          "msg-user-udyam-gst-gem-email"
         ],
         "quotes": [
-          "Add these pics"
+          "GEM SELLER ID-853B200001112907"
         ]
       },
       "acceptanceCriteria": [
-        "The Data Recovery service card displays one or more of the uploaded hard drive recovery photos",
-        "Images demonstrate professional data recovery capabilities and equipment",
-        "Photos maintain consistency with other service section imagery"
+        "GeM Seller ID '853B200001112907' is displayed in the Footer component",
+        "The ID is labeled clearly as 'GeM Seller ID' or similar"
       ]
     },
     {
-      "id": "REQ-14",
-      "text": "Integrate the uploaded service photos throughout the website as static assets, storing them in frontend/public/assets/generated and ensuring they load efficiently across all sections",
+      "id": "REQ-22",
+      "text": "Add email address 'nidhiinfotech@gmail.com' to the Footer component",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-latest"
+          "msg-user-udyam-gst-gem-email"
         ],
         "quotes": [
-          "Add these pics"
+          "email:-nidhiinfotech@gmail.com"
         ]
       },
       "acceptanceCriteria": [
-        "All 12 uploaded images are stored in frontend/public/assets/generated",
-        "Images are optimized for web display without quality loss",
-        "Photo integration maintains the existing responsive design patterns",
-        "Images load efficiently and do not impact page performance"
+        "Email address 'nidhiinfotech@gmail.com' is displayed in the Footer component",
+        "The email is labeled clearly as 'Email' or similar",
+        "The email should be clickable as a mailto: link"
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "text": "Organize the business credentials (UDYAM, GST, GeM Seller ID, email) in a visually distinct section within the Footer component that maintains the existing professional aesthetic and does not disrupt the current footer layout with company address, phone numbers, and business hours",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-udyam-gst-gem-email"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Business credentials are grouped together in a logical section",
+        "The credentials section fits cohesively with the existing footer design",
+        "All existing footer content (address, phones, hours) remains intact and properly displayed"
       ]
     }
   ],
   "constraints": [
-    "Use the exact uploaded image files without modification to source content",
-    "Maintain the current service section card layout and structure",
-    "Ensure images are responsive and work across mobile and desktop viewports"
+    "Do not modify the existing footer contact information (address, phone numbers, business hours)",
+    "Maintain the current professional visual theme and color scheme"
   ],
   "nonGoals": [
-    "Creating an image gallery or lightbox functionality",
-    "Adding captions or descriptions to the photos",
-    "Implementing image lazy loading mechanisms",
-    "Creating new service sections beyond the existing ones"
+    "Redesigning the entire footer layout",
+    "Adding additional business information not provided by the user",
+    "Creating a separate page for business credentials"
   ],
   "imageRequirements": {
     "required": [],

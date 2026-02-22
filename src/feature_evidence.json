@@ -2,10 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-display-the-uploaded-photos-of-the-technician-performing-chip-level-repairs-images-showing-workbench-with-motherboards-soldering-equipment-and-open-desktop-computer-in-the-hardware-repairs-section-of-the-services-component",
-      "featureTitle": "Display the uploaded photos of the technician performing chip-level repairs (images showing workbench with motherboards, soldering equipment, and open desktop computer) in the Hardware Repairs section of the Services component",
+      "featureId": "feature-add-udyam-registration-number-dl-11-0014598-to-the-footer-component",
+      "featureTitle": "Add UDYAM Registration number 'DL-11-0014598' to the Footer component",
       "files": [
-        "frontend/src/components/Services.tsx"
+        "frontend/src/components/Footer.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -15,15 +15,15 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-11"
+        "REQ-19"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-display-the-uploaded-photos-of-the-technician-working-with-server-rack-and-network-cabling-images-showing-professional-network-infrastructure-setup-with-blue-and-yellow-cables-in-the-networking-section-of-the-services-component",
-      "featureTitle": "Display the uploaded photos of the technician working with server rack and network cabling (images showing professional network infrastructure setup with blue and yellow cables) in the Networking section of the Services component",
+      "featureId": "feature-add-gst-number-07ahppk1766k1zu-to-the-footer-component",
+      "featureTitle": "Add GST Number '07AHPPK1766K1ZU' to the Footer component",
       "files": [
-        "frontend/src/components/Services.tsx"
+        "frontend/src/components/Footer.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -33,15 +33,15 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-12"
+        "REQ-20"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-display-the-uploaded-photos-of-the-technician-performing-data-recovery-work-images-showing-hard-drives-being-examined-at-the-workbench-with-specialized-equipment-in-the-data-recovery-section-of-the-services-component",
-      "featureTitle": "Display the uploaded photos of the technician performing data recovery work (images showing hard drives being examined at the workbench with specialized equipment) in the Data Recovery section of the Services component",
+      "featureId": "feature-add-gem-seller-id-853b200001112907-to-the-footer-component",
+      "featureTitle": "Add GeM Seller ID '853B200001112907' to the Footer component",
       "files": [
-        "frontend/src/components/Services.tsx"
+        "frontend/src/components/Footer.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -51,7 +51,43 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-13"
+        "REQ-21"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-email-address-nidhiinfotech-gmail-com-to-the-footer-component",
+      "featureTitle": "Add email address 'nidhiinfotech@gmail.com' to the Footer component",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-organize-the-business-credentials-udyam-gst-gem-seller-id-email-in-a-visually-distinct-section-within-the-footer-component-that-maintains-the-existing-professional-aesthetic-and-does-not-disrupt-the-current-footer-layout-with-company-address-phone-numbers-and-business-hours",
+      "featureTitle": "Organize the business credentials (UDYAM, GST, GeM Seller ID, email) in a visually distinct section within the Footer component that maintains the existing professional aesthetic and does not disrupt the current footer layout with company address, phone numbers, and business hours",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-23"
       ],
       "confidence": "high"
     }
