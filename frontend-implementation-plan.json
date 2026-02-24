@@ -1,21 +1,21 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Remove certificate image from Certifications section",
+  "title": "Remove HP Partner First Silver badge card from Certifications section",
   "requirements": [
     {
       "id": "REQ-1",
-      "summary": "Remove the HP Partner First Silver certificate image from the Certifications component while preserving all text content and adjusting layout gracefully",
+      "summary": "Remove the HP Partner First Silver badge card entirely from the Certifications component, and either remove the section or display a placeholder message if empty",
       "acceptanceCriteria": [
-        "No <img> or image element referencing the HP Partner First Silver certificate is rendered in the Certifications section.",
-        "The partner tier label and the date 'February 24, 2026' remain visible in the Certifications section.",
-        "The Certifications section layout adjusts gracefully without the image."
+        "The HP Partner First Silver badge card is no longer visible on the page.",
+        "No broken layout or empty card containers remain in the Certifications section.",
+        "All other sections (Header, Hero, Services, Products, AMC, Footer) remain unaffected."
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/Certifications.tsx",
           "operation": "modify",
-          "description": "Remove the <img> element that displays the HP Partner First Silver certificate image (frontend/public/assets/generated/hp-silver-partner-cert.dim_800x1000.png). Keep all text content including the partner tier label and the date 'February 24, 2026'. Adjust the component's layout and styling to display gracefully without the image, ensuring proper spacing and alignment of the remaining text content."
+          "description": "Remove the HP Partner First Silver badge card (including partner tier label and expiry date) from the component. Since this leaves the section empty, replace the content with a placeholder message such as 'No certifications are currently listed' or consider removing the card markup entirely while keeping the section heading. Ensure no empty card containers or broken layouts remain."
         }
       ]
     }

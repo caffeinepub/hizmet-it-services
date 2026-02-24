@@ -1,14 +1,14 @@
 {
   "schemaVersion": "1.0.0",
   "projectStateVersion": 3,
-  "summary": "New project",
+  "summary": "Certificate design project — removing HP Partner Silver element from the certificate.",
   "architectural_notes": [],
   "known_issues": [],
   "isFixRequest": false,
   "existing_features": [
     {
-      "id": "feature-remove-the-hp-partner-first-silver-certificate-image-from-the-certifications-component-while-keeping-the-rest-of-the-section-content-partner-tier-label-date-february-24-2026-and-any-other-text-intact",
-      "title": "Remove the HP Partner First Silver certificate image from the Certifications component, while keeping the rest of the section content (partner tier label, date 'February 24, 2026', and any other text) intact.",
+      "id": "feature-remove-the-hp-partner-first-silver-badge-card-including-partner-tier-label-and-expiry-date-entirely-from-the-certifications-component-if-this-leaves-the-certifications-section-empty-either-remove-the-section-entirely-or-display-a-placeholder-message-indicating-no-certifications-are-currently-listed",
+      "title": "Remove the HP Partner First Silver badge card (including partner tier label and expiry date) entirely from the Certifications component. If this leaves the Certifications section empty, either remove the section entirely or display a placeholder message indicating no certifications are currently listed.",
       "reqIds": [
         "REQ-1"
       ],
@@ -16,7 +16,8 @@
     }
   ],
   "new_feature_requests": [],
-  "projectName": "Remove certificate image from Certifications section",
+  "gameProjectType": "none",
+  "projectName": "HIZMET IT Services",
   "clarification_mode": "instant",
   "clarification_rounds": 0
 }

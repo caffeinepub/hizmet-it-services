@@ -2,8 +2,8 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-remove-the-hp-partner-first-silver-certificate-image-from-the-certifications-component-while-keeping-the-rest-of-the-section-content-partner-tier-label-date-february-24-2026-and-any-other-text-intact",
-      "featureTitle": "Remove the HP Partner First Silver certificate image from the Certifications component, while keeping the rest of the section content (partner tier label, date 'February 24, 2026', and any other text) intact.",
+      "featureId": "feature-remove-the-hp-partner-first-silver-badge-card-including-partner-tier-label-and-expiry-date-entirely-from-the-certifications-component-if-this-leaves-the-certifications-section-empty-either-remove-the-section-entirely-or-display-a-placeholder-message-indicating-no-certifications-are-currently-listed",
+      "featureTitle": "Remove the HP Partner First Silver badge card (including partner tier label and expiry date) entirely from the Certifications component. If this leaves the Certifications section empty, either remove the section entirely or display a placeholder message indicating no certifications are currently listed.",
       "files": [
         "frontend/src/components/Certifications.tsx"
       ],

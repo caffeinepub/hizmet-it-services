@@ -1,11 +1,10 @@
 # Specification
 
 ## Summary
-**Goal:** Remove the HP Partner First Silver certificate image from the Certifications section.
+**Goal:** Remove the HP Partner First Silver badge card from the Certifications section of the HIZMET IT Services site.
 
 **Planned changes:**
-- Remove the `<img>` element referencing the HP Partner First Silver certificate image from the Certifications component
-- Ensure the partner tier label and the date "February 24, 2026" remain visible
-- Adjust the Certifications section layout to display gracefully without the image
+- Remove the HP Partner First Silver badge card (including partner tier label and expiry date) from the Certifications component
+- If the Certifications section becomes empty after removal, remove the section entirely or show a placeholder message indicating no certifications are currently listed
 
-**User-visible outcome:** The Certifications section no longer shows the certificate image, but all text content (partner tier label and date) remains intact and the layout looks clean.
+**User-visible outcome:** The HP Partner First Silver badge card no longer appears on the page, with no broken layout or empty containers remaining.

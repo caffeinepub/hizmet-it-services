@@ -11,19 +11,9 @@ export function Certifications() {
           </p>
         </div>
         <div className="flex justify-center">
-          <div className="bg-card rounded-2xl shadow-card p-8 md:p-12 flex flex-col items-center gap-3 max-w-sm w-full border border-border">
-            <div className="text-center">
-              <span className="inline-block bg-primary/10 text-primary font-semibold text-sm px-4 py-1 rounded-full">
-                HP Partner First Silver
-              </span>
-              <p className="mt-2 text-muted-foreground text-sm">
-                Silver Retail Partner – Computing
-              </p>
-              <p className="mt-1 text-muted-foreground text-sm font-medium">
-                February 24, 2026
-              </p>
-            </div>
-          </div>
+          <p className="text-muted-foreground text-base italic">
+            No certifications are currently listed.
+          </p>
         </div>
       </div>
     </section>

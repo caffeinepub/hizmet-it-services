@@ -9,5 +9,5 @@
   "frontend/index.css": "Global styles with OKLCH color system customized for a professional IT services theme using warm orange/amber tones for trust and reliability.",
   "frontend/tailwind.config.js": "Tailwind configuration with custom color tokens, typography (Inter/Poppins fonts), border radius, and shadow utilities for the design system.",
   "frontend/src/main.tsx": "Application entry point that sets up React Query, Internet Identity provider, and renders the App component with correct relative CSS import path.",
-  "frontend/src/components/Certifications.tsx": "Section component displaying \"Certifications & Partnerships\" heading with a centered card showing the HP Partner First Silver badge, partner tier description, and the date \"February 24, 2026\" — without any certificate image."
+  "frontend/src/components/Certifications.tsx": "Section component displaying \"Certifications & Partnerships\" heading with a placeholder message indicating no certifications are currently listed, after removing the HP Partner First Silver badge card."
 }

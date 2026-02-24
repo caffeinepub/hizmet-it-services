@@ -1,7 +1,7 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-24T11:34:36.136Z",
+  "generatedAt": "2026-02-24T11:40:10.373Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
@@ -12,7 +12,7 @@
     "items": [
       {
         "id": "REQ-1",
-        "summary": "Remove the HP Partner First Silver certificate image from the Certifications component, while keeping the rest of the section content (partner tier label, date 'February 24, 2026', and any other text) intact.",
+        "summary": "Remove the HP Partner First Silver badge card (including partner tier label and expiry date) entirely from the Certifications component. If this leaves the Certifications section empty, either remove the section entirely or display a placeholder message indicating no certifications are currently listed.",
         "status": "implemented",
         "plannedFiles": [
           "frontend/src/components/Certifications.tsx"
