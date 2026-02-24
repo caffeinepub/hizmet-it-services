@@ -1,0 +1,37 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-24T11:34:36.136Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "Remove the HP Partner First Silver certificate image from the Certifications component, while keeping the rest of the section content (partner tier label, date 'February 24, 2026', and any other text) intact.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Certifications.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Certifications.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/Certifications.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

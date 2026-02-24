@@ -1,0 +1,34 @@
+{
+  "kind": "build_request",
+  "title": "Remove certificate image from Certifications section",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Remove the HP Partner First Silver certificate image from the Certifications component, while keeping the rest of the section content (partner tier label, date 'February 24, 2026', and any other text) intact.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Remove image"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No <img> or image element referencing the HP Partner First Silver certificate is rendered in the Certifications section.",
+        "The partner tier label and the date 'February 24, 2026' remain visible in the Certifications section.",
+        "The Certifications section layout adjusts gracefully without the image."
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Removing any text content from the Certifications section",
+    "Modifying any other component or section"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
