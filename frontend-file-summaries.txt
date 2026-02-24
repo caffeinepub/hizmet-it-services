@@ -1,5 +1,5 @@
 {
-  "frontend/src/App.tsx": "Main application component that renders the full single-page layout, now including the Certifications section between Products and AMC.",
+  "frontend/src/App.tsx": "Main application component that renders the full single-page layout with Header, Hero, Services, Products, AMC, and Footer sections. The Certifications section has been removed entirely.",
   "frontend/src/components/Header.tsx": "Sticky navigation header with logo, desktop/mobile menu, and smooth scroll navigation to page sections.",
   "frontend/src/components/Hero.tsx": "Hero section with headline, description, background image, and call-to-action buttons for calling and booking visits.",
   "frontend/src/components/Services.tsx": "Services section displaying five IT service offerings in a clean card grid layout without images, focusing on service titles and descriptions.",

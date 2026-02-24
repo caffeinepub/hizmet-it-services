@@ -1,10 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Remove the HP Partner First Silver badge card from the Certifications section of the HIZMET IT Services site.
+**Goal:** Remove the Certifications & Partnerships section entirely from the application.
 
 **Planned changes:**
-- Remove the HP Partner First Silver badge card (including partner tier label and expiry date) from the Certifications component
-- If the Certifications section becomes empty after removal, remove the section entirely or show a placeholder message indicating no certifications are currently listed
+- Remove the Certifications component from App.tsx so it no longer renders on the page
+- Remove the "Certifications & Partnerships" section heading and any related placeholder content
+- Remove the navigation link to the certifications/partnerships section from the Header
 
-**User-visible outcome:** The HP Partner First Silver badge card no longer appears on the page, with no broken layout or empty containers remaining.
+**User-visible outcome:** The page displays only the Header, Hero, Services, Products, AMC, and Footer sections, with no trace of a Certifications & Partnerships section or its navigation link.

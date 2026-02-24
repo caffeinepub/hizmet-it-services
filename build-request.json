@@ -1,33 +1,36 @@
 {
   "kind": "build_request",
-  "title": "Remove HP Partner First Silver badge card from Certifications section",
-  "projectName": "HIZMET IT Services",
+  "title": "Remove Certifications & Partnerships section entirely",
   "priority": "normal",
   "requirements": [
     {
       "id": "REQ-1",
-      "text": "Remove the HP Partner First Silver badge card (including partner tier label and expiry date) entirely from the Certifications component. If this leaves the Certifications section empty, either remove the section entirely or display a placeholder message indicating no certifications are currently listed.",
+      "text": "Remove the Certifications & Partnerships section from the page entirely. This includes removing the section heading, any placeholder text, and the Certifications component from App.tsx. Also remove any navigation link to the certifications/partnerships section from the Header.",
       "target": "frontend",
       "source": {
         "messageIds": [
           "msg-4"
         ],
         "quotes": [
-          "Remove hp partner silver first"
+          "Remove certification and partner column details"
         ]
       },
       "acceptanceCriteria": [
-        "The HP Partner First Silver badge card is no longer visible on the page.",
-        "No broken layout or empty card containers remain in the Certifications section.",
-        "All other sections (Header, Hero, Services, Products, AMC, Footer) remain unaffected."
+        "The Certifications component is no longer rendered in App.tsx",
+        "No 'Certifications & Partnerships' section heading or content appears on the page",
+        "The Header navigation does not contain a link to the certifications section",
+        "The rest of the page layout (Header, Hero, Services, Products, AMC, Footer) remains intact and unaffected"
       ]
     }
   ],
-  "constraints": [],
+  "constraints": [
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui",
+    "Do not alter the Footer, Services, Products, AMC, Hero, or Header components beyond removing any certifications-related nav link"
+  ],
   "nonGoals": [
-    "Modifying any section other than Certifications.",
-    "Adding new certifications or partner logos.",
-    "Changing the overall page layout or design theme."
+    "Redesigning or replacing the certifications section with new content",
+    "Adding any new sections or features",
+    "Backend changes"
   ],
   "imageRequirements": {
     "required": [],

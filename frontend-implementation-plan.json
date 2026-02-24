@@ -1,21 +1,32 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Remove HP Partner First Silver badge card from Certifications section",
+  "title": "Remove Certifications & Partnerships section entirely",
   "requirements": [
     {
       "id": "REQ-1",
-      "summary": "Remove the HP Partner First Silver badge card entirely from the Certifications component, and either remove the section or display a placeholder message if empty",
+      "summary": "Remove the Certifications & Partnerships section from the page entirely, including the component, section heading, placeholder text, and navigation link",
       "acceptanceCriteria": [
-        "The HP Partner First Silver badge card is no longer visible on the page.",
-        "No broken layout or empty card containers remain in the Certifications section.",
-        "All other sections (Header, Hero, Services, Products, AMC, Footer) remain unaffected."
+        "The Certifications component is no longer rendered in App.tsx",
+        "No 'Certifications & Partnerships' section heading or content appears on the page",
+        "The Header navigation does not contain a link to the certifications section",
+        "The rest of the page layout (Header, Hero, Services, Products, AMC, Footer) remains intact and unaffected"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/components/Certifications.tsx",
+          "path": "frontend/src/App.tsx",
           "operation": "modify",
-          "description": "Remove the HP Partner First Silver badge card (including partner tier label and expiry date) from the component. Since this leaves the section empty, replace the content with a placeholder message such as 'No certifications are currently listed' or consider removing the card markup entirely while keeping the section heading. Ensure no empty card containers or broken layouts remain."
+          "description": "Remove the Certifications component import and remove the <Certifications /> JSX element from the component tree, keeping all other sections (Header, Hero, Services, Products, AMC, Footer) intact"
+        },
+        {
+          "path": "frontend/src/components/Header.tsx",
+          "operation": "modify",
+          "description": "Remove any navigation link that references the certifications section from both the desktop nav links array and the mobile menu navigation items"
+        },
+        {
+          "path": "frontend/src/components/Certifications.tsx",
+          "operation": "delete",
+          "description": "Delete the Certifications component file entirely as it is no longer needed in the application"
         }
       ]
     }

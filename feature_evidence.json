@@ -2,9 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-remove-the-hp-partner-first-silver-badge-card-including-partner-tier-label-and-expiry-date-entirely-from-the-certifications-component-if-this-leaves-the-certifications-section-empty-either-remove-the-section-entirely-or-display-a-placeholder-message-indicating-no-certifications-are-currently-listed",
-      "featureTitle": "Remove the HP Partner First Silver badge card (including partner tier label and expiry date) entirely from the Certifications component. If this leaves the Certifications section empty, either remove the section entirely or display a placeholder message indicating no certifications are currently listed.",
+      "featureId": "feature-remove-the-certifications-partnerships-section-from-the-page-entirely-this-includes-removing-the-section-heading-any-placeholder-text-and-the-certifications-component-from-app-tsx-also-remove-any-navigation-link-to-the-certifications-partnerships-section-from-the-header",
+      "featureTitle": "Remove the Certifications & Partnerships section from the page entirely. This includes removing the section heading, any placeholder text, and the Certifications component from App.tsx. Also remove any navigation link to the certifications/partnerships section from the Header.",
       "files": [
+        "frontend/src/App.tsx",
         "frontend/src/components/Certifications.tsx"
       ],
       "components": [
